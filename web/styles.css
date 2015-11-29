@@ -7,3 +7,30 @@ html, body {
     padding: 0;
     font-family: 'Roboto', sans-serif;
 }
+
+.calcRow {
+  width: 138px;
+}
+
+.result {
+  background-color: silver;
+  height: 16px;
+  border-width: 2px;
+  border-style: solid;
+}
+
+.calcButton {
+  display: inline-block;
+  border-width: 2px;
+  border-style: solid;
+  width: 20px;
+  text-align: center;
+}
+
+.calcButton.inputButton {
+  background-color: gray;
+}
+
+.calcButton.opButton {
+  background-color: teal;
+}
